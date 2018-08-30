@@ -20,6 +20,8 @@ for n=1:N
 
 end
 
+disp(['Porcentaje de rechazo = ', num2str((N-length(z))/N)])
+
 % Mostramos histograma del resultado
 figure
 histogram(z,100)
