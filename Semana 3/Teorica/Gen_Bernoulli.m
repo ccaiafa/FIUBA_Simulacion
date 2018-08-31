@@ -5,9 +5,7 @@ function [] = Gen_Bernoulli(N, p)
 % p: Probabilidad de éxito (1). Notar que (1-p) es la probabilidad de
 % fracaso
 x = rand(1,N); % Genero N muestras uniformes en [0,1]
-
 z = zeros(1,N); % Aqui se guardaran las muestras de Bernoulli.
-
 z(x < p) = 1; % Aigno 1 con probabilidad p
 
 % Mostramos histograma del resultado
