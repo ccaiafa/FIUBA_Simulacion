@@ -2,9 +2,9 @@
 % Gaussiana usando el método de aceptación/rechazo (Libro [16])
 function [] = Gen_Gauss_rechazo(N)
 % N: Número de muestras
-c = sqrt(2*exp(1)/pi); % Ver Libro [16, pag
+c = sqrt(2*exp(1)/pi); % Ver Libro [16, pag. 77]
 %% Paso 1: Generamos muestras de la variable exponencial Y, media 1
-t = exprnd(1,1,N); % Generamos un vector de 1xN muestras. 77]
+t = exprnd(1,1,N); % Generamos un vector de 1xN muestras
 p = fX(t)./(c*fY(t)); % Probabilidad de aceptar
 z= [];
 for n=1:N
