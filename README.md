@@ -5,7 +5,7 @@ Profesor responsable: Dr. Ing. Cesar F. Caiafa
 
 Jefe de Trabajos Prácticos: Ing. Marcelo Benitez
 
-Ayudante: Ing. Natalia Bartolome
+Ayudante: Lic. Azul Villanueva
 
 ## PROGRAMA ANALÍTICO
 ### UNIDAD 1: Introducción a la simulación numérica y teoría general de sistemas. 
